@@ -5,6 +5,8 @@ from aiogram.types import FSInputFile
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 import aiohttp
 
+
+# Версия без идентификации пользователя
 # Настройки
 API_URL = "http://127.0.0.1:5715/getmpzzreport"
 BOT_TOKEN = "8043399839:AAGsMi50XOV4xPcGIMq5IfuhvSKC-QswVLc"

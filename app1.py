@@ -8,6 +8,7 @@ import aiohttp
 from aiogram import types
 
 
+# Версия с идентификацией пользователя
 # Подключаем бд
 conn = sqlite3.connect("users.db")
 cursor = conn.cursor()
